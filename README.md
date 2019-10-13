@@ -35,7 +35,7 @@ Na podstawie danych satelitarnych analiza zmian linii brzegowej.
 
 ### Technology stack 
 
-    * Maszyna wirtualna
+..* Maszyna wirtualna
     * Licencja Power BI Pro
     * Front-End:
         * JavaScript
