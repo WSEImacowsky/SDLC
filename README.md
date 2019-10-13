@@ -30,7 +30,7 @@ Na podstawie danych satelitarnych analiza zmian linii brzegowej.
 ### Requirements 
 
   * częstotliwość pobierania danych (podstawa: co godzinę) pozwalająca na analizę wahań poziomu wód   w ciągu dnia
-  * [DATA SOURCES] (https://spacex.com.pl/wiadomosci/trzy-satelity-konstelacji-radarsat-zostaly-wyniesione-na-orbite)
+  * [DATA SOURCES](https://spacex.com.pl/wiadomosci/trzy-satelity-konstelacji-radarsat-zostaly-wyniesione-na-orbite)
   * FURPS (Functionality, Usability, Reliability, Performance, Supportability)
 
 ### Technology stack 
