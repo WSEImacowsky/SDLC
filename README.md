@@ -12,19 +12,32 @@ Na podstawie danych satelitarnych analiza zmian linii brzegowej.
 ### Clients
 
   * Rząd
+    - wsparcie zarządzania kryzysowego
+    - wsparcie polityk rządowych (morskiej, turystyki, rolnictwa/rybołówstwa, ochrony środowiska)
+        - minimalizacja kosztów i zasobów związanych z działaniami w obrębie określonytch polityk
   * Organizacje proekologiczne
+    - 
   * Fundacje
   * Instytucje biznesowe / firmy
 
 
 ### Features
 
-  * prognozowanie (FUNCTIONALITY)
+  * pozyskiwanie, obsługa i zarządzanie danymi (FUNCTIONALITY)
+    - hurtownia danych
+    - model danych
+    - metody pozyskiwania i przekształcania danych (ELT)
+    - 
+
+
+
+metodologia prognozowania
   * rekomendacje/ostrzeżenia (FUNCTIONALITY)
   * informacja o obszarach, w których mogą pojawić się potencjalne koszty / zyski (FUNCTIONALITY)
   * dane historyczne
   * dane bieżące 
   * UX/UI - wygodne przedstawienie danych (USABILITY) -> Dashboardy w Power BI
+  * Alerty ( dynamiczne informowanie o krytycznych zmianach linii brzegowej i / lub prognozowanych stanów wód i pokrywy lodowej)
 
 
 ### Requirements 
@@ -36,7 +49,7 @@ Na podstawie danych satelitarnych analiza zmian linii brzegowej.
 
 ### Technology stack 
 
-  * Maszyna wirtualna
+  * Środowisko produkcyjne - Azure Data Factory
   * Licencja Power BI Pro
   * Front-End:
     * JavaScript
