@@ -6,7 +6,8 @@ Narzędzie do analizy lini brzegowej
 
 ### Short description
 
-Na podstawie danych satelitarnych analiza zmian linii brzegowej.
+Na podstawie danych satelitarnych analiza zmian mórz, oceanów, linii brzegowych oraz pokrywy lodowej. 
+Dane pozyskane dzięki satelitom będą mogły zostać wykorzystane między innymi w rolnictwie przy klasyfikacji rodzajów gleby oraz w zarządzaniu kryzysowym podczas powodzi czy trzęsień ziemi.
 
 
 ### Clients
@@ -16,7 +17,6 @@ Na podstawie danych satelitarnych analiza zmian linii brzegowej.
     - wsparcie polityk rządowych (morskiej, turystyki, rolnictwa/rybołówstwa, ochrony środowiska)
         - minimalizacja kosztów i zasobów związanych z działaniami w obrębie określonytch polityk
   * Organizacje proekologiczne
-    - 
   * Fundacje
   * Instytucje biznesowe / firmy
 
