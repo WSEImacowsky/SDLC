@@ -1,0 +1,27 @@
+Prognozowanie:
+- Została obranie odpowiedniej metodologii prognozowania dla poszczególnych elementów projektu
+- rozszerzenie hurtowni danych o tabele służące do prognozowania (funkcje, stałe)
+- opracowanie procedur prognozowania danych 
+- rozszerzenie procesu ELT o procesowanie prognozowania danych
+
+System ostrzeżeń:
+- analiza zmian zachodzących na pobieranych z API zdjęć
+- rozszerzenie funkcjonalności oprogramowania do analizowanie zdjęć o potencjalne sytuacje zagrożenia
+- stworzenie funkcjonalności dla użytkownika końcowego informującego o anomaliach i ostrzegający o nagłych zmianach
+- rozbudowanie systemu ostrzeżeń opierając się na danych prognozowanych
+
+Wyświetlanie i analiza zdjęć z konkretnego okresu czasu:
+- utworzenie wizualizacji przedstawiającej w kolejności zdjęcia z okreslonego okresu czasu (JS)
+- połączenie do API poprzez ADF i pobieranie zdjęć Pipeline'm do hurtowni
+- utworzenie raportu wykorzystującego opracowaną wizualizację
+
+Analiza danych ze zdjęć na raportach:
+- przygotowanie oprogramowania do analizy obrazów ze zdjęć przedstawiających linię brzegową
+- przekazanie zdjęć do API w celu wyciągnięcia interesujących danych
+- utworzenie modelu Azure Analysis Services 
+- utworzenie i konfiguracja Power BI Premium dla oprogramowania
+- podpięcie modelu danych do Power BI
+- utworzenie raportów 
+
+Aplikacja webowa / desktopowa:
+- 
