@@ -12,40 +12,50 @@ Na podstawie danych satelitarnych analiza zmian linii brzegowej.
 ### Clients
 
   * Rząd
-    - wsparcie zarządzania kryzysowego
-    - wsparcie polityk rządowych (morskiej, turystyki, rolnictwa/rybołówstwa, ochrony środowiska)
-        - minimalizacja kosztów i zasobów związanych z działaniami w obrębie określonytch polityk
-  * Organizacje proekologiczne
-    - 
-  * Fundacje
-  * Instytucje biznesowe / firmy
+     - wsparcie polityk rządowych związanych z ochroną środowiska: 
+        - minimalizacja kosztów i zasobów związanych z działaniami rządu w zakresie ochrony środowiska (poziom wód, linia brzegowa etc. )
+        - wsparcie w zakresie informowania o zmianach klimatycznych 
+        - wsparcie decyzji związanych w sytuacjach kryzysowych (katastrofy klimatyczne)
+        - przewidywanie sytuacji kryzysowych ( katastrof klimatycznych etc.)
+        - wsparcie instrumentów alarmowania kryzysowego
 
 
 ### Features
 
   * pozyskiwanie, obsługa i zarządzanie danymi (FUNCTIONALITY)
-    - hurtownia danych
-    - model danych
+    - magazynowanie danych
     - metody pozyskiwania i przekształcania danych (ELT)
-    - 
+    - hurtownia danych 
+    - obsługa danych (bieżących, historycznych i prognoz)
+    - API - dostęp programistyczny do danych
 
+  * informowanie  i ostrzeżeganie:
+    - Alerty (rodzaje alertów)
+    - prognozy (krótko i długoterminowe) - dynamiczne informowanie o krytycznych zmianach linii brzegowej i / lub prognozowanych stanów wód i pokrywy lodowej
+    - systemowe rekomendacje/doradztwo
+    - informacja o obszarach, w których mogą pojawić się potencjalne koszty / zyski 
 
+  * interfejs użytkownika:  
+    - UX/UI - graficzny interfejs w formie strony/aplikacji webowej
+    - raportowanie - możliwość tworzenia raportów w formie graficznej 
+    - dashboardy, grafiki etc.
 
-metodologia prognozowania
-  * rekomendacje/ostrzeżenia (FUNCTIONALITY)
-  * informacja o obszarach, w których mogą pojawić się potencjalne koszty / zyski (FUNCTIONALITY)
+metodologia prognozowania:  
+  
   * dane historyczne
   * dane bieżące 
   * UX/UI - wygodne przedstawienie danych (USABILITY) -> Dashboardy w Power BI
-  * Alerty ( dynamiczne informowanie o krytycznych zmianach linii brzegowej i / lub prognozowanych stanów wód i pokrywy lodowej)
 
 
-### Requirements 
 
+### Requirements
+
+  * dane przechowywane w chmurze danych i powszechnie dostępne
   * częstotliwość pobierania danych (podstawa: co godzinę) pozwalająca na analizę wahań poziomu wód   w ciągu dnia
   * [DATA SOURCES](https://spacex.com.pl/wiadomosci/trzy-satelity-konstelacji-radarsat-zostaly-wyniesione-na-orbite)
   * [API](https://gbdxdocs.digitalglobe.com/docs/mda-radarsat-2)
   * FURPS (Functionality, Usability, Reliability, Performance, Supportability)
+  * Możliwość definiowania alertów, rekomendacji, grafik
 
 ### Technology stack 
 
