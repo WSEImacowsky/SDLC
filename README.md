@@ -2,7 +2,7 @@
 
 ## Project subject
 
-Narzędzie do analizy lini brzegowej 
+Narzędzie do analizy lini brzegowej oraz poziomu zalesienia (**te dwa konkretne przypadki**)
 
 ### Short description
 
@@ -32,7 +32,6 @@ Na podstawie danych satelitarnych analiza zmian linii brzegowej.
   * informowanie  i ostrzeżeganie:
     - Alerty (rodzaje alertów)
     - prognozy (krótko i długoterminowe) - dynamiczne informowanie o krytycznych zmianach linii brzegowej i / lub prognozowanych stanów wód i pokrywy lodowej
-    - prognozowanie poziommu zalesienia oraz zmian lini brzegowej (te dwa konkretne przypadki)
     - systemowe rekomendacje/doradztwo
     - informacja o obszarach, w których mogą pojawić się potencjalne koszty / zyski 
 
