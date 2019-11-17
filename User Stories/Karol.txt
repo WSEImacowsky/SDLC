@@ -1,0 +1,19 @@
+pozyskiwanie, obsługa i zarządzanie danymi (FUNCTIONALITY)
+    - magazynowanie danych
+    - model danych
+    - metody pozyskiwania i przekształcania danych (ELT)
+    - hurtownia danych 
+    - obsługa danych bieżących, historycznych i prognoz
+    - API - dostęp programistyczny do danych
+
+  * informowanie  i ostrzeżeganie:
+    -  Alerty (rodzaje alertów)
+    - prognozy (krótko i długoterminowe)
+    - rekomendacje/doradztwo
+    - informacja o obszarach, w których mogą pojawić się potencjalne koszty / zyski 
+    - dynamiczne prognozy - dynamiczne informowanie o krytycznych zmianach linii brzegowej i / lub prognozowanych stanów wód i pokrywy lodowej
+
+  * interfejs użytkownika:
+    
+    - UX/UI - graficzny interfejs w formie strony/aplikacji webowej
+    - raportowanie - możliwość tworzenia raportów w formie graficznej 
