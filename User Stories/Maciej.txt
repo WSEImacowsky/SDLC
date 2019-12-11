@@ -1,0 +1,2 @@
+1. Aplikacja webowa
+2. Podpinanie raportów z Power BI 
