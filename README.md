@@ -42,9 +42,9 @@ Analiza zmian linii brzegowej oraz poziomu zalesienia lądu (**te dwa konkretne 
 
 ## Requirements
   * Dane przechowywane w chmurze danych i powszechnie dostępne
-  * Częstotliwość pobierania danych (podstawa: co godzinę) pozwalająca na analizę wahań poziomu wód   w ciągu dnia
-  * [RADARSAT mission](https://spacex.com.pl/wiadomosci/trzy-satelity-konstelacji-radarsat-zostaly-wyniesione-na-orbite "Informacje o misji RADARSAT i przeznaczeniu satelit")
-  * [API](https://gbdxdocs.digitalglobe.com/docs/mda-radarsat-2 "Dostęp do danych satelitarnych")
+  * Częstotliwość pobierania danych satelitarnych (**podstawa: co godzinę**) pozwalająca na efektywną analizę
+  * [Informacje o misji RADARSAT i przeznaczeniu satelit](https://spacex.com.pl/wiadomosci/trzy-satelity-konstelacji-radarsat-zostaly-wyniesione-na-orbite "RADARSAT"){:target="_blank"}
+  * [Dostęp do danych satelitarnych (API)](https://gbdxdocs.digitalglobe.com/docs/mda-radarsat-2 "API"){:target="_blank"}
   * FURPS (Functionality, Usability, Reliability, Performance, Supportability)
   * Możliwość definiowania alertów, rekomendacji, grafik
 
