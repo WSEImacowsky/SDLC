@@ -6,51 +6,50 @@ Analiza zmian linii brzegowej oraz poziomu zalesienia lądu (**te dwa konkretne 
 ## Clients
 
 ### Government
-  - Wsparcie polityk rządowych związanych z ochroną środowiska: 
-    - minimalizacja kosztów i zasobów związanych z działaniami rządu w zakresie ochrony środowiska (zmiany linii brrzegowej, zmiany poziomu zalesienia lądu )
-    - wsparcie w zakresie informowania o zmianach klimatycznych 
-    - wsparcie decyzji związanych w sytuacjach kryzysowych (katastrofy klimatyczne)
-    - przewidywanie sytuacji kryzysowych ( katastrof klimatycznych etc.)
+  - Wsparcie polityk rządowych związanych z ochroną środowiska:
+    - minimalizacja kosztów i zasobów związanych z działaniami rządu w zakresie ochrony środowiska
+    - wsparcie w zakresie informowania o zmianach linii brzegowej i/lub poziomu zalesienia lądu
+    - wsparcie decyzji związanych w sytuacjach kryzysowych (optymalizacja wydatków)
+    - przewidywanie interwencji w obszarach zmian linii brzegowej i/lub poziomu zalesienia lądu
     - wsparcie instrumentów alarmowania kryzysowego
 
 
 ## Features
-
-### Zarządzanie danymi (FUNCTIONALITY)
+* **Zarządzanie danymi (FUNCTIONALITY)**
     - Hurtownia danych
       - pozyskiwanie danych
       - przekształcanie danych (ELT)
       - magazynowanie danych
-    - Analizy predykcyjne na danych z hurtowni danych
+    - Analizy predykcyjne w oparciu o dane z hurtowni danych
     - Obsługa danych historycznych i bieżących
     - Dostęp programistyczny do danych - **API**
 
-### Informowanie  i ostrzeżeganie (USABILITY)
+* **Informowanie  i ostrzeżeganie (USABILITY)**
     - **Informowanie:**
       - alerty (rodzaje alertów)
       - systemowe rekomendacje/doradztwo
     - **Ostrzeganie:**
-      - prognozy (krótko i długoterminowe) - dynamiczne informowanie o krytycznych zmianach linii brzegowej i / lub prognozowanych poziomów zalesienia lądu
-      - informacja o obszarach, w których mogą pojawić się potencjalne koszty / zyski
+      - prognozy krótko i długoterminowe - dynamiczne informowanie o krytycznych zmianach linii brzegowej i / lub prognozowanych poziomów zalesienia lądu
+      - informacja o obszarach, w których mogą pojawić się potencjalne koszty
 
-### Interfejs użytkownika:  
+* **Interfejs użytkownika (USABILITY)**
     - **Aplikacja webowa**:
       - zmiana sposobu prezentacji danych według stworzonych przez siebie zasad
       - zarządzanie alertami oraz rekomendacjami
       - zarządzanie paczkami danych udostępnianych przez API
-    - **Microsoft Power BI** - informacje pozyskane z danych satelitarnych prezentowane w postaci interaktywnych raportów (map oraz wykresów)
+    - **Microsoft Power BI**: 
+      - przetworzone informacje z danych satelitarnych prezentowane w postaci interaktywnych raportów (dashboard'ów, map oraz wykresów)
 
 
 ## Prediction methodologies
   * Dane historyczne - gromadzone w hurtowni danych oraz poddawane obliczeniom matematycznym w celu zbudowania i udoskonalania modelu predykcyjnego
   * Dane bieżące - próbka kontrolna do porownania z wynikiem działania modelu predykcyjnego
-  * UX/UI - wygodne przedstawienie danych (USABILITY) -> Dashboardy w Power BI
 
 
 ## Requirements
-  * Dane przechowywane w chmurze danych i powszechnie dostępne
-  * Częstotliwość pobierania danych satelitarnych (**podstawa: co godzinę**) pozwalająca na efektywną analizę
-  * Predefiniowane alerty oraz rekomendacje
+  * Dane przechowywane w chmurze danych i powszechnie dostępne (API)
+  * Częstotliwość pobierania danych satelitarnych (**podstawa: co godzinę**) pozwalająca na efektywną analizę (**PERFORMANCE**)
+  * Predefiniowane alerty oraz rekomendacje w aplikacji webowej
   * Dodawanie nowych alertów oraz rozbudowywanie rekomendacji przez aplikację webową
 
 ## Technology stack 
@@ -61,16 +60,11 @@ Analiza zmian linii brzegowej oraz poziomu zalesienia lądu (**te dwa konkretne 
     * Python
   * Back-end:
     * Microsoft SQL Server 2016
-    * Bazy danych (SSMS)
-    * SQL Srver Integriation Services (SSIS)
-    * SQL Server Analysis Services (SSAS)
+    * SQL Server Management Studio - baza danych
+    * SQL Srver Integriation Services (SSIS) - pobieranie i ładowanie danych do hurtowni danych
+    * SQL Server Analysis Services (SSAS) - przetwarzanie danych przez modele analityczne (kosti OLAP)
 
 
 ## Additional informations
   * [Informacje o misji RADARSAT i przeznaczeniu satelit](https://spacex.com.pl/wiadomosci/trzy-satelity-konstelacji-radarsat-zostaly-wyniesione-na-orbite "RADARSAT")
   * [Dostęp do danych satelitarnych (API)](https://gbdxdocs.digitalglobe.com/docs/mda-radarsat-2 "API")
-
-
-
-
-  * FURPS (Functionality, Usability, Reliability, Performance, Supportability)
