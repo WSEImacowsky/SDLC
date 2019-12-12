@@ -68,3 +68,11 @@ Analiza zmian linii brzegowej oraz poziomu zalesienia lądu (**te dwa konkretne 
 ## Additional informations
   * [Informacje o misji RADARSAT i przeznaczeniu satelit](https://spacex.com.pl/wiadomosci/trzy-satelity-konstelacji-radarsat-zostaly-wyniesione-na-orbite "RADARSAT")
   * [Dostęp do danych satelitarnych (API)](https://gbdxdocs.digitalglobe.com/docs/mda-radarsat-2 "API")
+
+
+### Authors
+  * Karol Szarek - Project Designer
+  * Jakub Maszkowski - Data Developer
+  * Maciej Mleczko - Project Lead
+
+#### copyright ©. All right reserved
