@@ -71,8 +71,4 @@ Analiza zmian linii brzegowej oraz poziomu zalesienia lądu (**te dwa konkretne 
 
 
 ### Authors
-  * Karol Szarek - Project Designer
-  * Jakub Maszkowski - Data Developer
-  * Maciej Mleczko - Project Lead
-
-#### copyright ©. All right reserved
+  * Karol Szarek | Jakub Maszkowski | Maciej Mleczko **copyright ©. All right reserved**
