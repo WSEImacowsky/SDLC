@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-15T11:42:38.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="9bgBm8Q-ushMyJwWHuq8" version="12.4.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-15T11:44:40.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="kGD3cqQQDtBPAJStp1Ok" version="12.4.2" type="github" pages="1">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="3175.5" dy="2033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -156,7 +156,7 @@
         <mxCell id="oLljnyBIysXPZ3oE8e6Y-19" value="Przechodzenie do powiązanego raportu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-760" y="-930" width="133.51" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="oLljnyBIysXPZ3oE8e6Y-20" value="" style="endArrow=classic;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="oLljnyBIysXPZ3oE8e6Y-19" target="KoNH0CNwUAHt0AgaoYmD-19">
+        <mxCell id="oLljnyBIysXPZ3oE8e6Y-20" value="" style="endArrow=classic;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.041;exitY=0.683;exitDx=0;exitDy=0;dashed=1;exitPerimeter=0;" edge="1" parent="1" source="oLljnyBIysXPZ3oE8e6Y-19" target="KoNH0CNwUAHt0AgaoYmD-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-721.49" y="-775" as="sourcePoint"/>
             <mxPoint x="-790.0000000000002" y="-867.96" as="targetPoint"/>
