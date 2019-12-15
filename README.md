@@ -37,6 +37,7 @@ Analiza zmian linii brzegowej oraz poziomu zalesienia lądu (**te dwa konkretne 
       - zmiana sposobu prezentacji danych według stworzonych przez siebie zasad
       - zarządzanie alertami oraz rekomendacjami
       - zarządzanie paczkami danych udostępnianych przez API
+      - zarządzanie sprawozdaniami/wnioskami/nonatkami z prognoz
     - **Microsoft Power BI**: 
       - przetworzone informacje z danych satelitarnych prezentowane w postaci interaktywnych raportów (dashboard'ów, map oraz wykresów)
       - udostępnianie raportów innym użytkownikom
