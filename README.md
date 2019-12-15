@@ -39,6 +39,7 @@ Analiza zmian linii brzegowej oraz poziomu zalesienia lądu (**te dwa konkretne 
       - zarządzanie paczkami danych udostępnianych przez API
     - **Microsoft Power BI**: 
       - przetworzone informacje z danych satelitarnych prezentowane w postaci interaktywnych raportów (dashboard'ów, map oraz wykresów)
+      - udostępnianie raportów innym pracownikom
 
 
 ## Prediction methodologies
@@ -62,7 +63,7 @@ Analiza zmian linii brzegowej oraz poziomu zalesienia lądu (**te dwa konkretne 
     * Microsoft SQL Server 2016
     * SQL Server Management Studio - baza danych
     * SQL Srver Integriation Services (SSIS) - pobieranie i ładowanie danych do hurtowni danych
-    * SQL Server Analysis Services (SSAS) - przetwarzanie danych przez modele analityczne (kosti OLAP)
+    * SQL Server Analysis Services (SSAS) - przetwarzanie danych przez modele analityczne (kostki OLAP)
 
 
 ## Additional informations
