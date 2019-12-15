@@ -20,7 +20,7 @@ Analiza zmian linii brzegowej oraz poziomu zalesienia lądu (**te dwa konkretne 
       - pozyskiwanie danych
       - przekształcanie danych (ELT)
       - magazynowanie danych
-    - Analizy predykcyjne w oparciu o dane z hurtowni danych
+    - Analizy predykcyjne w oparciu o dane z hurtowni
     - Obsługa danych historycznych i bieżących
     - Dostęp programistyczny do danych - **API**
 
